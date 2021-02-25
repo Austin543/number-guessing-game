@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Guessing Game</title>
+    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body id="thebody">
+    <h1>Number Guessing Game</h1>
+    <input id="input" type="text" autofocus>
+    <input id="submit" type="button" value="Submit" onmousedown="submit()">
+    <input id="reset" type="button" value="Play Again" onmousedown="reset()">
+    <p id="output"></p>
+    <p id="numberGuess"></p>
+    <div id="Instructions">
+    <h2>How to Play</h2>
+    <ls>
+        <li>A random number is generated between 1 and 100, and it is your goal to figure it out.</li>
+        <li>Each guess you make, the game will tell you if your number is too high or too low.</li>
+        <li>Once you guess the correct number, you win!</li>
+    </ls>
+    </div>
+</body>
+</html> 
